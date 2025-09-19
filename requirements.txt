@@ -1,0 +1,16 @@
+# Lambda Calculus Graph Transformation System Requirements
+# Core dependencies for graph operations and visualization
+networkx>=3.0
+matplotlib>=3.5.0
+numpy>=1.21.0
+
+# Optional: For advanced graph visualization
+graphviz>=0.20.0
+
+# Optional: For performance optimization
+scipy>=1.9.0
+
+# Development dependencies (optional)
+pytest>=7.0.0
+black>=22.0.0
+flake8>=5.0.0
