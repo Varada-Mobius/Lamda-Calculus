@@ -4,11 +4,8 @@ networkx>=3.0
 matplotlib>=3.5.0
 numpy>=1.21.0
 
-# Optional: For advanced graph visualization
-graphviz>=0.20.0
 
-# Optional: For performance optimization
-scipy>=1.9.0
+
 
 # Core dependencies
 flask==3.0.0
@@ -17,12 +14,8 @@ flask-cors==4.0.0
 # Production server
 gunicorn==21.2.0
 
-# Optional: API documentation
-flasgger==0.9.7.1
 
-# Optional: Rate limiting
-flask-limiter==3.5.0
 
-# Development/Testing
-pytest==7.4.3
-requests==2.31.0
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
